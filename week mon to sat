@@ -1,3 +1,10 @@
+
+
+
+    
+    
+        
+        
     
 #include <stdio.h>
 
@@ -18,18 +25,12 @@ int main()
         break;
         case 5:printf("Friday\n");
         break;
-        case 6:("Saturday\n");
+        case 6:printf("Saturday\n");
         break;
-        case 7:("Sunday\n");
-       
+        case 7:printf("Sunday\n");
+        break;
         default: printf("wrong day");
     }
     }
 
-
-    
-    
-        
-        
-    
 
