@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    float principal[3], rate[3], time[3], interest[3];
+    int i;
+    for(i = 0; i < 3; i++)
+    {
+        printf("Enter principal, rate and time for set %d:\n", i + 1);
+        scanf("%f %f %f", &principal[i], &rate[i], &time[i]);
+        interest[i] = (principal[i] * rate[i] * time[i]) / 100;
+    }
+    printf("\nSimple Interest for each set:\n");
+    for(i = 0; i < 3; i++) 
+    {
+        printf("Set %d: SI = %.2f\n", i + 1, interest[i]);
+    }
+}
