@@ -4,7 +4,7 @@ int main()
 {
     int num, i, isPrime = 1;
 
-    printf("Enter a positive integer: ");
+    printf("Enter a integer: ");
     scanf("%d", &num);
 
     if (num <= 1)
